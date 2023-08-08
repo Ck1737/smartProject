@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "./uservents.module.css";
 import MysideNav from "../components/sideNav";
 import axios from "axios";
-import Chart from "chart.js";
+
 
 
 const ViewPage = () => {
