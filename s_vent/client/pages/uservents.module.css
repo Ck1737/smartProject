@@ -1,0 +1,113 @@
+.siteNavigation {
+  background-color: #0d98ba;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  height: 70px;
+}
+
+.logoButton {
+  border: none;
+  background: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.button {
+  color: #080202;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+}
+
+.maincontainer{
+  margin-left: 250px;
+}
+.table1 {
+  /* width: 100%; */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.thead {
+  background-color: #f0f0f0;
+}
+
+.tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.th {
+  padding: 12px 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.td {
+  padding: 12px 20px;
+  text-align: left;
+}
+
+/* Hover effect on table rows */
+.tr:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+
+
+/* xArray and yArray css */
+.xyContainer {
+  margin-top: 20px;
+}
+
+.xArr,
+.yArr {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.xArr {
+  margin-bottom: 10px;
+}
+
+.xyRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.xyItem {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ------------------------- */

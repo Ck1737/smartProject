@@ -1,0 +1,116 @@
+.siteNavigation {
+  background-color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 70px;
+}
+
+.logoButton {
+  border: none;
+  background: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  cursor: pointer; 
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.button {
+color: white;
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.button:hover {  
+  color: #ccc;
+}
+
+.footer {
+  background-color:maroon;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 0%;
+}
+
+.column {
+  flex-basis: 20%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.content{
+  height: 650px;
+  background-color: #A8ECEA;
+  margin-bottom: 20px;
+}
+
+
+#h3f {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#pf {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#ulf {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ulf #lif {
+  margin-bottom: 10px;
+}
+
+#af {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+
+.photo {
+padding-inline-start: 30%;
+height: 500px;
+width: 700px;
+}
+
+
+
+.text {
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+

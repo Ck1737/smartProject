@@ -1,0 +1,195 @@
+.background{
+  background-color: #A8ECEA;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;  
+  gap: 20px;
+  height: 65vh;
+  display: flex;
+  justify-content: right;
+}
+
+.addimage {
+  width: 900px;
+  height: auto;
+  position: relative;
+}
+
+.addimage img{
+  height: 100%;
+  width: 100%;
+}
+
+.addTextonImage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+    width: 300px;
+    height: 600px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    overflow: auto;
+    margin-right: 30px;
+  }
+  .container::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    border-radius: 10px;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    margin-bottom: 10px;
+    color: #555555;
+  }
+
+  .input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+     .btnMenu {
+       color: white;
+       border: none;
+       background: none;
+       font-size: 20px;
+       font-weight: bold;
+       padding: 30px;
+       margin: 0;
+       cursor: pointer;
+     }
+
+  .successMessage {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #dff0d8;
+    border-radius: 6px;
+    color: #3c763d;
+    text-align: center;
+  }
+
+  .siteNavigation {
+    background-color:maroon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 70px;
+  }
+
+  .logoButton {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: white;
+
+  }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu a {
+    text-decoration: none;
+  }
+
+  .subbutton {
+    color: #080202;
+    background-color: #A8ECEA;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+
+.footer {
+    background-color: maroon;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.column {
+  flex-basis: 20%;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+#h3f {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#pf {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+
+#ulf {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ulf #lif {
+  margin-bottom: 10px;
+}
+
+#af {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.icon {
+  margin-right: 10px;
+}

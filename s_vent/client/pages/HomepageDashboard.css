@@ -1,0 +1,31 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .building,
+  .room,
+  .vent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .building h2,
+  .room h3,
+  .vent h4 {
+    margin-bottom: 10px;
+  }
+  
+  .vent-icon img {
+    width: 100px;
+    height: auto;
+  }
+  

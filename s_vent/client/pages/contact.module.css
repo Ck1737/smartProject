@@ -1,0 +1,93 @@
+.siteNavigation {
+    background-color: #0d98ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 70px;
+  }
+  
+  .logoButton {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+  }
+  
+  .button {
+    color: #080202;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: white;
+  }
+
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex-basis: 20%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  #h3f {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #pf {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  #ulf {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #ulf #lif {
+    margin-bottom: 10px;
+  }
+  
+  #af {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
